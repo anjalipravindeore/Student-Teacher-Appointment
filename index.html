@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Teacher Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Teacher Management System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#admin">Admin</a></li>
+            <li><a href="#teacher">Teacher</a></li>
+            <li><a href="#student">Student</a></li>
+        </ul>
+    </nav>
+
+    <section id="admin">
+        <h2>Admin Panel</h2>
+        <button id="addTeacher">Add Teacher</button>
+        <button id="updateTeacher">Update/Delete Teacher</button>
+        <button id="approveStudent">Approve Student Registration</button>
+        <button id="logoutAdmin">Logout</button>
+    </section>
+
+    <section id="teacher">
+        <h2>Teacher Panel</h2>
+        <button id="scheduleAppointment">Schedule Appointment</button>
+        <button id="manageAppointments">Approve/Cancel Appointment</button>
+        <button id="viewMessages">View Messages</button>
+        <button id="viewAllAppointments">View All Appointments</button>
+        <button id="logoutTeacher">Logout</button>
+    </section>
+
+    <section id="student">
+        <h2>Student Panel</h2>
+        <button id="registerStudent">Register</button>
+        <button id="loginStudent">Login</button>
+        <button id="searchTeacher">Search Teacher</button>
+        <button id="bookAppointment">Book Appointment</button>
+        <button id="sendMessage">Send Message</button>
+        <button id="logoutStudent">Logout</button>
+    </section>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
